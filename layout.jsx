@@ -5,11 +5,7 @@ export const metadata = {
   description: 'Interactive 3D Web Development Portfolio',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
